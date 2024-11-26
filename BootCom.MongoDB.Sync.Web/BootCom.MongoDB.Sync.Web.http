@@ -1,0 +1,6 @@
+@BootCom.MongoDB.Sync.Web_HostAddress = http://localhost:5236
+
+GET {{BootCom.MongoDB.Sync.Web_HostAddress}}/
+Accept: application/json
+
+###

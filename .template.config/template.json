@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Chris Boot",
+  "classifications": ["Web", "API"], 
+  "name": "BootCom Database Sync Web Project",
+  "identity": "BootCom.DatabaseSync.Web",
+  "shortName": "DatabaseSync",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "BootCom.DatabaseSync.Web",
+  "preferNameDirectory": true,
+  "symbols": {
+    "port": {
+      "type": "parameter",
+      "datatype": "int",
+      "defaultValue": "5000",
+      "description": "The port the application will run on"
+    }
+  }
+}
