@@ -20,7 +20,8 @@ jobs:
     - name: Pack Template
       run: dotnet pack -o ./nupkg --configuration Release
 
-    - name: Publish Template
-      env:
-        NUGET_API_KEY: ${{ secrets.NUGET_API_KEY }}
-      run: dotnet nuget push ./nupkg/*.nupkg --api-key $NUGET_API_KEY --source https://api.nuget.org/v3/index.json
+  publish:
+    uses: .github/workflows/publish-nuget.yml@main
+    with:
+      package_path: ./nupkg/*.nupkg
+
