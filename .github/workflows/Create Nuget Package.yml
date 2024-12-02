@@ -21,7 +21,7 @@ jobs:
       run: dotnet pack -o ./nupkg --configuration Release
 
   publish:
-    uses: shared-workflows/.github/workflows/publish_nuget.yml@main
+    uses: bootcom-uk/shared-workflows/.github/workflows/publish_nuget.yml@main
     with:
       package_path: ./nupkg/*.nupkg
 
