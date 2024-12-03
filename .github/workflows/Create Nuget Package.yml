@@ -24,4 +24,3 @@ jobs:
     uses: bootcom-uk/shared-workflows/.github/workflows/publish_nuget.yml@main
     with:
       package_path: ./nupkg/*.nupkg
-
