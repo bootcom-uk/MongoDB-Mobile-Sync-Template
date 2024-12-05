@@ -6,6 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <PackageId>BootCom.DatabaseSync.Web</PackageId>
     <Title>BootCom DataSync Web Template</Title>
+	  <IsPackable>true</IsPackable>
   </PropertyGroup>
 
   <ItemGroup>
