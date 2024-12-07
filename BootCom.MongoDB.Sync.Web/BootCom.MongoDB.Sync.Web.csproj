@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
@@ -7,6 +7,9 @@
     <PackageId>BootCom.DatabaseSync.Web</PackageId>
     <Title>BootCom DataSync Web Template</Title>
 	  <IsPackable>true</IsPackable>
+	  <AssemblyVersion>1.0.1</AssemblyVersion>
+	  <FileVersion>1.0.0.1</FileVersion>
+	  <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
