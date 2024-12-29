@@ -1,7 +1,7 @@
-﻿using BootCom.MongoDB.Sync.Web.Interfaces;
-using BootCom.MongoDB.Sync.Web.Models.SyncModels;
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using MongoDB.Sync.Web.Interfaces;
+using MongoDB.Sync.Web.Models.SyncModels;
 using System.Security.Claims;
 
 namespace BootCom.MongoDB.Sync.Web.Controllers

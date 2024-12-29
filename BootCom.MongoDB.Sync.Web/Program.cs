@@ -1,9 +1,9 @@
 using BootCom.MongoDB.Sync.Web.Hubs;
-using BootCom.MongoDB.Sync.Web.Interfaces;
-using BootCom.MongoDB.Sync.Web.Models.Configuration;
-using BootCom.MongoDB.Sync.Web.Services;
 using Microsoft.OpenApi.Models;
 using MongoDB.Driver;
+using MongoDB.Sync.Web.Interfaces;
+using MongoDB.Sync.Web.Models.Configuration;
+using MongoDB.Sync.Web.Services;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
